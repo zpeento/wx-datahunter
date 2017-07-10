@@ -1,26 +1,20 @@
-/**app.wxss**/
-/*.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} */
 page{
-    background-color: #F8F8F8;
-    font-size: 16px;
-    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei','-apple-system-font','Helvetica Neue','Helvetica,sans-serif';
     color:#666;
+    background-color: #eee;
+    letter-spacing: 2rpx;
 }
+/*html{
+  
+}*/
 .h3{
-  font-size:20px;
-  font-weight: bold;
+  font-size:16px;
+  /*font-weight: bold;*/
   display: block;
 }
 .h4{
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   display: block;
 }

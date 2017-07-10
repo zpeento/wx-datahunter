@@ -1,0 +1,34 @@
+/**case.wxss**/
+text{
+  display: block;
+}
+.conatiner{
+  /*padding-top: 60rpx;*/
+}
+.tab-button-container{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #bbb;
+  position: fixed;
+  top: 0px;
+  background: #fff;
+}
+.tab-button{
+  text-align: center;
+  width:250rpx;
+  box-sizing: border-box;
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+  border-left:1px solid #bbb;
+  border-right:1px solid #bbb;
+  height: 40px;
+}
+.tab-content-container{
+  margin-top: 50px;
+}
+.title{
+  font-size: 20px;
+}
+.case-show-container image{
+  height:640px;
+}

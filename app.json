@@ -1,0 +1,38 @@
+{
+	"pages":[
+	"pages/index/index",
+    "pages/case/case",
+    
+    "pages/about/about"
+    
+	],
+	"window":{
+		"backgroundTextStyle":"light",
+		"navigationBarBackgroundColor": "#E64340",
+		"navigationBarTitleText": "数据猎人",
+		"navigationBarTextStyle":"white",
+		"enablePullDownRefresh":true
+	},
+	"tabBar":{
+		"color":"#000",
+		"selectedColor":"#D9250E",
+		"borderStyle":"white",
+		"backgroundColor":"#F8F8F8",
+		"list": [{
+			"selectedIconPath": "images/home.png", 
+			"iconPath": "images/home.png",
+			"pagePath":"pages/index/index",
+			"text":"首页"
+		},{
+			"selectedIconPath": "images/cooperation.png",
+			"iconPath": "images/cooperation.png",
+			"pagePath":"pages/case/case",
+			"text":"产品案例"
+		},{
+			"selectedIconPath": "images/about.png",
+			"iconPath": "images/about.png",
+			"pagePath":"pages/about/about",
+			"text":"关于"
+		}]
+	}
+}

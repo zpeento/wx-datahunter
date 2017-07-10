@@ -1,0 +1,12 @@
+/**index.wxss**/
+.container{
+  padding: 20rpx 20rpx 0rpx 20rpx;
+}
+.title-container{
+  display: flex;
+  justify-content:flex-start;
+}
+.name,.phone,.wechat{
+  display: flex;
+  align-items: center;
+}

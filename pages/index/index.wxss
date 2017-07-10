@@ -1,0 +1,15 @@
+/**index.wxss**/
+.container{
+  /*padding-top: 20rpx;*/
+}
+.title-container{
+  display: flex;
+  justify-content:flex-start;
+}
+.data-custom-container,.wx-program-container,.web-dev-container{
+  padding:20rpx 30rpx 20rpx 30rpx;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #bbb;
+  border-top: solid 1px #bbb;
+}

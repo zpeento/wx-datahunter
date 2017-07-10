@@ -4,7 +4,8 @@
 }
 .title-container{
   /*background-color: #000;*/
-  
+  display: flex;
+  align-items: center;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   padding: 20rpx 0 20rpx 20rpx;
@@ -27,11 +28,11 @@
   box-shadow: 6rpx 8rpx 16rpx #ababab;
 }
 .data-custom-container .title-container{
-  background: linear-gradient(to right, #FE7394, #FFB78C);
+  background: linear-gradient(to right, #FDD23B 55%, #FCFD64); 
 }
 .wx-program-container .title-container{
-  background: linear-gradient(to right, #09D4CE, #6EE3F0);
+  background: linear-gradient(to right, #FE7394, #FFB78C);
 }
 .web-dev-container .title-container{
-  background: linear-gradient(to right, #5B82FC, #3EC5FD);
+  background: linear-gradient(to right, #09D4CE, #6EE3F0);
 }

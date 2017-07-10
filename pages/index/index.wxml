@@ -9,7 +9,7 @@
   </view>
   <view class="data-custom-container">
     <view class="title-container">
-      <!--<image src="../../images/campus_talk_red.png"></image>-->
+      <!--<image src="../../images/da.png" class="icon"></image>-->
       <text class="h3">数据定制 >></text>
     </view>
     <view class="content-container">
@@ -18,7 +18,7 @@
   </view>
   <view class="wx-program-container">
     <view class="title-container">
-      <!--<image src="../../images/campus_talk_red.png" class="icon"></image>-->
+      <!--<image src="../../images/we.png" class="icon"></image>-->
       <text class="h3">小程序 >></text>
     </view>
     <view class="content-container">
@@ -27,7 +27,7 @@
   </view>
   <view class="web-dev-container">
     <view class="title-container">
-      <!--<image src="../../images/campus_talk_red.png"></image>-->
+      <!--<image src="../../images/pc.png" class="icon"></image>-->
       <text class="h3">网站开发 >></text>
     </view>
     <view class="content-container">

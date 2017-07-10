@@ -21,18 +21,18 @@
   margin-bottom: 10px;
   margin-left: 30rpx;
   margin-right: 30rpx;
-  border-bottom: solid 1px #efefef;
-  border-top: solid 1px #efefef;
+  /*border-bottom: solid 1px #efefef;
+  border-top: solid 1px #efefef;*/
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 6rpx 8rpx 16rpx #ababab;
 }
 .data-custom-container .title-container{
-  background: linear-gradient(to right, #FDD23B 55%, #FCFD64); 
-}
-.wx-program-container .title-container{
   background: linear-gradient(to right, #FE7394, #FFB78C);
 }
+.wx-program-container .title-container{
+  background: linear-gradient(to right, #FDD23B, #FCED54);
+}
 .web-dev-container .title-container{
-  background: linear-gradient(to right, #09D4CE, #6EE3F0);
+  background: linear-gradient(to right, #09D4CE, #6EE3F0); 
 }

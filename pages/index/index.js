@@ -5,7 +5,7 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {}
-  }
+  },
   //事件处理函数
   // bindViewTap: function() {
   //   wx.navigateTo({
@@ -23,4 +23,19 @@ Page({
   //     })
   //   })
   // }
+  toDataCustom: function() {
+    wx.switchTab({
+      url: '/pages/case/case'
+    })
+  },
+  toWxProgram: function() {
+    wx.switchTab({
+      url:"/pages/case/case"
+    })
+  },
+  toWebDev: function() {
+    wx.switchTab({
+      url:"/pages/case/case"
+    })
+  }
 })

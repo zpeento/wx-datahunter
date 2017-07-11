@@ -5,6 +5,11 @@ Page({
   data: {
     tab_index: '0'
   },
+  onLoad:function(options){
+    this.setData({
+      tab_index:options.curindex
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

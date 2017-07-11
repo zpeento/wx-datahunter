@@ -1,14 +1,16 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="comoany-intro-container">
+  <view class="comoany-intro-container card">
     <text class="title h4">公司简介</text>
-    <text class="content">数据猎人工作室(广州数群信息科技有限公司)是由广外数据挖掘实验室成员创立的面向互联网公开数据的数据服务提供商，致力于互联网大数据的采集整合、挖掘分析和可视化；同时，搭建数据资源共享平台，为高校学子分享优质的学术资源提供入口。</text>
+    <text class="content">
+    数据猎人工作室(广州数群信息科技有限公司)是由广外数据挖掘实验室成员创立的面向互联网公开数据的数据服务提供商，致力于互联网大数据的采集整合、挖掘分析和可视化；同时，搭建数据资源共享平台，为高校学子分享优质的学术资源提供入口。</text>
   </view>
-  <view class="team-intro-container">
+  <view class="team-intro-container card">
     <text class="title h4">团队介绍</text>
-    <text class="content">数据猎人是一个年轻的数据科技创新团队，核心成员均来自广东外语外贸大学数据挖掘实验室，有丰富的数据处理经验，创始人及联合创始人现就职于BAT，具有在阿里巴巴进行技术研发和腾讯进行数据挖掘的经验。</text>
+    <text class="content">
+    数据猎人是一个年轻的数据科技创新团队，核心成员均来自广东外语外贸大学数据挖掘实验室，有丰富的数据处理经验，创始人及联合创始人现就职于BAT，具有在阿里巴巴进行技术研发和腾讯进行数据挖掘的经验。</text>
   </view>
-  <view class="team-member-container">
+  <view class="team-member-container card">
     <view class="team-member">
       <view class="name">
         <image src="../../images/people.png" class="icon"></image>

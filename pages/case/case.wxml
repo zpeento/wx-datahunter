@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="tab-button-container">
-    <view class="data-custom-button tab-button" bindtap="showDataCustom">
+    <view class="data-custom-button tab-button active" bindtap="showDataCustom">
       数据定制
     </view>
     <view class="wx-program-button tab-button" bindtap="showWxProgram">
@@ -14,20 +14,20 @@
   <view class="tab-content-container">
     <!--数据定制tab-->
     <view class="data-custom-container" wx:if="{{tab == 'dataCustom'}}">
-      <view class="intro-container">
-        <text class="title h4">简介</text>
+      <view class="intro-container card">
+        <text class="title">简介</text>
         <text class="content">
           根据您的需求，提供个性化数据解决方案，包括互联网公开大数据的采集整合、挖掘分析及可视化、爬虫引擎构建、数据库建设、数据清洗、数据API开发等。您只需要提供特定的信息源或网址，便可获得结构化数据、可视化分析结果和云存储技术。
         </text>
       </view>
-      <view class="process-container">
-        <text class="title h4">流程</text>
+      <view class="process-container card">
+        <text class="title">流程</text>
         <text class="content">
           提交需求——>协商解决方案——>交付验收
         </text>
       </view>
-      <view class="offer-container">
-        <text class="title h4">报价</text>
+      <view class="offer-container card">
+        <text class="title">报价</text>
         <text class="content">
           根据评估收费，具体报价详情可联系负责人。
         </text>

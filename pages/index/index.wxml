@@ -10,7 +10,8 @@
   <view class="data-custom-container">
     <view class="title-container">
       <!--<image src="../../images/da.png" class="icon"></image>-->
-      <text class="h3">数据定制 >></text>
+      <text class="h3">数据定制</text>
+      <text class="croat">>>></text>
     </view>
     <view class="content-container">
       <text>根据您的需求，提供个性化数据解决方案，包括互联网公开大数据的采集整合、挖掘分析及可视化、爬虫引擎构建、数据库建设、数据清洗、数据API开发等。您只需要提供特定的信息源或网址，便可获得结构化数据、可视化分析结果和云存储技术。</text>
@@ -19,7 +20,8 @@
   <view class="wx-program-container">
     <view class="title-container">
       <!--<image src="../../images/we.png" class="icon"></image>-->
-      <text class="h3">小程序 >></text>
+      <text class="h3">小程序</text>
+      <text class="croat">>>></text>
     </view>
     <view class="content-container">
       <text>根据您的需求，我们可以为您量身定制一款小程序，您亦可快速生成企业名片。</text>
@@ -28,7 +30,8 @@
   <view class="web-dev-container">
     <view class="title-container">
       <!--<image src="../../images/pc.png" class="icon"></image>-->
-      <text class="h3">网站开发 >></text>
+      <text class="h3">网站开发</text>
+      <text class="croat">>>></text>
     </view>
     <view class="content-container">
       <text>根据您的需求，由专业团队为您的需求制作可行方案，您可监控网站开发全程的每个环节。</text>

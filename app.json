@@ -1,14 +1,16 @@
 {
 	"pages":[
-	"pages/index/index",
-    "pages/case/case",
+		"pages/index/index",
+		"pages/case/case",
+	
+    
     
     "pages/about/about"
     
 	],
 	"window":{
 		"backgroundTextStyle":"bold",
-		"navigationBarBackgroundColor": "#5B82FC",
+		"navigationBarBackgroundColor": "#00BCD4",
 		"navigationBarTitleText": "数据猎人",
 		"navigationBarTextStyle":"white",
 		"enablePullDownRefresh":true

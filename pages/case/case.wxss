@@ -24,7 +24,7 @@
   border-bottom: 4px solid #00BCD4;
 }
 .tab-button.active{
-  border-bottom: 4px solid #FFFF8D;
+  border-bottom: 4px solid #F9CE1D;
 }
 .tab-content-container{
   margin-top: 50px;

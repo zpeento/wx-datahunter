@@ -23,3 +23,6 @@
   display: block;
   font-weight: bold;
 }
+.team-member{
+  border-left: 4px solid #F9CE1D;
+}

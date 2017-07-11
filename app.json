@@ -8,14 +8,14 @@
 	],
 	"window":{
 		"backgroundTextStyle":"bold",
-		"navigationBarBackgroundColor": "#FDD23B",
+		"navigationBarBackgroundColor": "#5B82FC",
 		"navigationBarTitleText": "数据猎人",
 		"navigationBarTextStyle":"white",
 		"enablePullDownRefresh":true
 	},
 	"tabBar":{
 		"color":"#bfbfbf",
-		"selectedColor":"#D9250E",
+		"selectedColor":"#333",
 		"borderStyle":"white",
 		"backgroundColor":"#F8F8F8",
 		"list": [{

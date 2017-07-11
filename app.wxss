@@ -2,7 +2,7 @@ page{
     font-size: 14px;
     font-family: 'Microsoft Yahei','-apple-system-font','Helvetica Neue','Helvetica,sans-serif';
     color:#999;
-    background-color: #eee;
+    background-color: #ededed;
     letter-spacing: 2rpx;
 }
 /*html{

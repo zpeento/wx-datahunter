@@ -28,11 +28,14 @@
   box-shadow: 6rpx 8rpx 16rpx #ababab;
 }
 .data-custom-container .title-container{
+  background: linear-gradient(to right, #5B82FC, #3EC5FD);
+}
+ 
+.wx-program-container .title-container{
   background: linear-gradient(to right, #FE7394, #FFB78C);
 }
-.wx-program-container .title-container{
-  background: linear-gradient(to right, #FDD23B, #FCED54);
-}
+ 
 .web-dev-container .title-container{
-  background: linear-gradient(to right, #09D4CE, #6EE3F0); 
+  background: linear-gradient(to right, #09D4CE, #6EE3F0);
 }
+ 

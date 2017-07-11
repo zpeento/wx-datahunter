@@ -33,7 +33,7 @@
         </text>
       </view>
       <view class="case-show-container">
-        <image src="../../images/data.jpg" mode="aspectFit"></image>
+        <image src="../../images/data.jpg"></image>
       </view>
     </view>
 

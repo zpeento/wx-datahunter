@@ -26,3 +26,6 @@
 .team-member{
   border-left: 4px solid #F9CE1D;
 }
+.team-member-container{
+  padding-bottom: 20rpx;
+}

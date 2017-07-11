@@ -1,6 +1,6 @@
 /**index.wxss**/
 .container{
-  /*padding-top: 20rpx;*/
+  padding-bottom: 20rpx;
 }
 .title-container{
   /*background-color: #000;*/

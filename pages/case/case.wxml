@@ -1,19 +1,19 @@
 <!--index.wxml-->
 <view class="container">
   <view class="tab-button-container">
-    <view class="data-custom-button tab-button active" bindtap="showDataCustom">
+    <view class="data-custom-button tab-button  {{tab_index == '0'? 'active' : ''}}" bindtap="showDataCustom">
       数据定制
     </view>
-    <view class="wx-program-button tab-button" bindtap="showWxProgram">
+    <view class="wx-program-button tab-button  {{tab_index == '1'? 'active' : ''}}" bindtap="showWxProgram">
       小程序
     </view>
-    <view class="web-dev-button tab-button" bindtap="showWebDev">
+    <view class="web-dev-button tab-button  {{tab_index == '2'? 'active' : ''}}" bindtap="showWebDev">
       网站开发
     </view>
   </view>
   <view class="tab-content-container">
     <!--数据定制tab-->
-    <view class="data-custom-container" wx:if="{{tab == 'dataCustom'}}">
+    <view class="data-custom-container" wx:if="{{tab_index == '0'}}">
       <view class="intro-container card">
         <text class="title">简介</text>
         <text class="content">
@@ -38,7 +38,7 @@
     </view>
 
     <!--小程序tab-->
-    <view class="wx-program-container" wx:if="{{tab == 'wxProgram'}}">
+    <view class="wx-program-container" wx:if="{{tab_index == '1'}}">
       <view class="intro-container  card">
         <text class="title h4">简介</text>
         <text class="content">
@@ -64,7 +64,7 @@
     </view>
 
     <!--网站开发tab-->
-    <view class="web-dev-container" wx:if="{{tab == 'webDev'}}">
+    <view class="web-dev-container" wx:if="{{tab_index == '2'}}">
       <view class="intro-container card">
         <text class="title h4">简介</text>
         <text class="content">

@@ -3,7 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    tab:"dataCustom"
+    tab_index: '0'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -13,17 +13,17 @@ Page({
   },
   showDataCustom: function() {
     this.setData({
-      tab:"dataCustom"
+      tab_index:"0"
     })
   },
   showWxProgram: function() {
     this.setData({
-      tab:"wxProgram"
+      tab_index:"1"
     })
   },
   showWebDev: function() {
     this.setData({
-      tab:"webDev"
+      tab_index:"2"
     })
   },
   // onLoad: function () {

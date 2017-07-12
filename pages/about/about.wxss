@@ -36,7 +36,7 @@
   height:40px;
 }
 .team-member-container .call{
-  margin-right: 10px;
+  margin-right: 20rpx;
   margin-top: 20px;
 }
 .team-member.has-call{

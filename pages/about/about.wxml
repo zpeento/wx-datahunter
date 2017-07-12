@@ -27,7 +27,7 @@
       </view>
     </view>
     <view class="call">
-      <image src="../../images/call.png"></image>
+      <image src="../../images/call.png" bindtap="call"></image>
     </view>
     </view>
     <view class="team-member card">

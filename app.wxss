@@ -23,13 +23,20 @@ page{
   height:28px;
   margin-right: 5px;
 }
+
+/*swiper*/
 .wx-swiper-dot-active{
   background-color: #F9CE1D !important;
-}
-wx-swiper{
-  
 }
 .case-show-container{
   margin: 0 22rpx 12px 22rpx;
   box-shadow: 2px 3px 2px #ccc;
+  background-color: #fff;
+}
+.swiper-title{
+  padding: 10px 6px;
+  border-left: 4px solid #F9CE1D;
+  font-size: 14px;
+  font-weight: bold;
+  color: #F9CE1D;
 }

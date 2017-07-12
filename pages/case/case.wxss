@@ -48,3 +48,9 @@
 .data-custom-container swiper{
   height: 240px;
 }
+.wx-program-container swiper{
+  height: 600px;
+}
+.wx-program-container swiper image{
+  height: 600px;
+}

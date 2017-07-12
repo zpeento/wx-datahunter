@@ -36,7 +36,7 @@
         <view class="swiper-title">合作案例</view>
         <swiper indicator-dots="{{swiper.indicatorDots}}"
   autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="true">
-          <block wx:for="{{swiper.imgUrls}}">
+          <block wx:for="{{swiper.dataCustomImg}}">
             <swiper-item>
               <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFit"/>
             </swiper-item>
@@ -66,8 +66,15 @@
         </text>
       </view>
       <view class="case-show-container">
-        <text>如下为合作案例</text>
-        <text>案例1</text>
+        <view class="swiper-title">合作案例</view>
+        <swiper indicator-dots="{{swiper.indicatorDots}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="true">
+          <block wx:for="{{swiper.wxProgramImg}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFit"/>
+            </swiper-item>
+          </block>
+        </swiper>
       </view>
     </view>
 

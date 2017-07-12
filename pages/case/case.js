@@ -5,12 +5,13 @@ Page({
   data: {
     tab_index: '0',
     swiper: {
-      imgUrls: [   '../../images/data1.png','../../images/data2.png'
-      ],
       indicatorDots: true,
       autoplay: true,
       interval: 5000,
-      duration: 2000
+      duration: 2000,
+      dataCustomImg: ['../../images/data1.png','../../images/data2.png'
+      ],
+      wxProgramImg: ['../../images/wx1.png','../../images/wx2.png','../../images/wx3.jpg','../../images/wx4.jpg']
     }
   },
   onLoad:function(options){

@@ -33,7 +33,15 @@
         </text>
       </view>
       <view class="case-show-container">
-        <image src="../../images/data.jpg"></image>
+        <view class="swiper-title">合作案例</view>
+        <swiper indicator-dots="{{swiper.indicatorDots}}"
+  autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+          <block wx:for="{{swiper.imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image" width="355" height="150"/>
+            </swiper-item>
+          </block>
+        </swiper>
       </view>
     </view>
 

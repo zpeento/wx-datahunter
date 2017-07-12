@@ -36,9 +36,9 @@
   display: block;
   font-weight: bold;
 }
-.case-show-container image{
+/*.case-show-container image{
   height:640px;
-}
+}*/
 .card{
   margin:12px 24rpx;
   padding: 20rpx 20rpx 20rpx 20rpx;

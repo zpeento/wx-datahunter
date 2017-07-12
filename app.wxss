@@ -23,3 +23,13 @@ page{
   height:28px;
   margin-right: 5px;
 }
+.wx-swiper-dot-active{
+  background-color: #F9CE1D !important;
+}
+wx-swiper{
+  
+}
+.case-show-container{
+  margin: 0 22rpx 12px 22rpx;
+  box-shadow: 2px 3px 2px #ccc;
+}

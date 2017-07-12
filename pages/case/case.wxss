@@ -28,7 +28,7 @@
   border-bottom: 4px solid #F9CE1D;
 }
 .tab-content-container{
-  margin-top: 60px;
+  margin-top: 52px;
 }
 .title{
   font-size: 16px;
@@ -40,7 +40,7 @@
   height:640px;
 }
 .card{
-  margin:30rpx 24rpx 30rpx 24rpx;
+  margin:12px 24rpx;
   padding: 20rpx 20rpx 20rpx 20rpx;
   background: #fff;
   box-shadow: 2px 3px 2px #ccc;

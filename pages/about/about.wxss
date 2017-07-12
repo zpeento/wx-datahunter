@@ -12,7 +12,7 @@
   align-items: center;
 }
 .card{
-  margin:30rpx 24rpx 30rpx 24rpx;
+  margin:12px 24rpx;
   padding: 20rpx 20rpx 20rpx 20rpx;
   background: #fff;
   box-shadow: 2px 3px 2px #ccc;
@@ -27,5 +27,5 @@
   border-left: 4px solid #F9CE1D;
 }
 .team-member-container{
-  padding-bottom: 20rpx;
+  padding-bottom: 12px;
 }

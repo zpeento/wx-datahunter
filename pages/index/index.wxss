@@ -3,16 +3,12 @@
   padding-bottom: 20rpx;
 }
 .title-container{
-  /*background-color: #000;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*border-top-left-radius: 6px;
-  border-top-right-radius: 6px;*/
   padding: 20rpx 20rpx 20rpx 20rpx;
   border: 0px;
-  color:#00BCD4;
-  /*background-color: #00BCD4;*/
+  color:#33A9DB;
 }
 .content-container{
   padding:20rpx 20rpx 20rpx 20rpx;

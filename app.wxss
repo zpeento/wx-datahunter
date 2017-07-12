@@ -1,13 +1,10 @@
 page{
     font-size: 14px;
     font-family: '-apple-system-font','Helvetica Neue','Helvetica','sans-serif';
-    color:#999;
+    color:#888;
     background-color: #ededed;
     letter-spacing: 2rpx;
 }
-/*html{
-  
-}*/
 .h3{
   font-size:16px;
   font-weight: bold;

@@ -11,7 +11,7 @@
   /*border-bottom: 4px solid #FFFF8D;*/
   position: fixed;
   top: 0px;
-  background: #00BCD4;
+  background: #33A9DB;
 }
 .tab-button{
   text-align: center;
@@ -21,8 +21,8 @@
   padding-top: 20rpx;
   height: 40px;
   color: #fff;
-  font-size: 14px;
-  border-bottom: 4px solid #00BCD4;
+  font-size: 16px;
+  border-bottom: 4px solid #33A9DB;
 }
 .tab-button.active{
   border-bottom: 4px solid #F9CE1D;
@@ -32,7 +32,7 @@
 }
 .title{
   font-size: 16px;
-  color: #00BCD4;
+  color: #33A9DB;
   display: block;
   font-weight: bold;
 }

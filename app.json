@@ -1,9 +1,10 @@
 {
 	"pages":[
+		"pages/about/about",
 		"pages/case/case",
-		"pages/index/index",
+		"pages/index/index"
 		
-		"pages/about/about"
+		
 	],
 	"window":{
 		"backgroundTextStyle":"bold",

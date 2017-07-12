@@ -25,7 +25,21 @@
 }
 .team-member{
   border-left: 4px solid #F9CE1D;
+  
 }
 .team-member-container{
   padding-bottom: 12px;
+  
+}
+.team-member-container .call image{
+  width: 40px;
+  height:40px;
+}
+.team-member-container .call{
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.team-member.has-call{
+  display: flex;
+  justify-content: space-between;
 }

@@ -11,7 +11,8 @@
     数据猎人是一个年轻的数据科技创新团队，核心成员均来自广东外语外贸大学数据挖掘实验室，有丰富的数据处理经验，创始人及联合创始人现就职于BAT，具有在阿里巴巴进行技术研发和腾讯进行数据挖掘的经验。</text>
   </view>
   <view class="team-member-container">
-    <view class="team-member card">
+    <view class="team-member card has-call">
+    <view class="business-card">
       <view class="name">
         <image src="../../images/girl.png" class="icon"></image>
         <text>潘樱桃</text>
@@ -24,6 +25,10 @@
         <image src="../../images/wechat.png" class="icon"></image>
         <text>微信:Beryl_pyt</text>
       </view>
+    </view>
+    <view class="call">
+      <image src="../../images/call.png"></image>
+    </view>
     </view>
     <view class="team-member card">
       <view class="name">

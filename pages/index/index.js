@@ -24,16 +24,19 @@ Page({
   //   })
   // }
   toDataCustom: function() {
+    wx.setStorageSync('curIndex','0')
     wx.switchTab({
       url: '/pages/case/case'
     })
   },
   toWxProgram: function() {
+    wx.setStorageSync('curIndex','1')
     wx.switchTab({
       url:"/pages/case/case"
     })
   },
   toWebDev: function() {
+    wx.setStorageSync('curIndex','2')
     wx.switchTab({
       url:"/pages/case/case"
     })

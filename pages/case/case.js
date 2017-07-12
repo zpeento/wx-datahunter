@@ -14,28 +14,30 @@ Page({
       wxProgramImg: ['../../images/wx1.png','../../images/wx2.png','../../images/wx3.jpg','../../images/wx4.jpg']
     }
   },
-  onLoad:function(options){
-    this.setData({
-      tab_index:options.curindex
-    })
+  onShow:function(options){
+    var curIndex = wx.getStorageSync('curIndex')
+    if (curIndex) {
+      this.setData({
+        tab_index:curIndex
+      })
+    }
+    
   },
   //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
   showDataCustom: function() {
+    wx.setStorageSync('curIndex','0')
     this.setData({
       tab_index:"0"
     })
   },
   showWxProgram: function() {
+    wx.setStorageSync('curIndex','1')
     this.setData({
       tab_index:"1"
     })
   },
   showWebDev: function() {
+    wx.setStorageSync('curIndex','2')
     this.setData({
       tab_index:"2"
     })

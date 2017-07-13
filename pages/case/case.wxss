@@ -12,6 +12,7 @@
   position: fixed;
   top: 0px;
   background: #33A9DB;
+  z-index: 4;
 }
 .tab-button{
   text-align: center;
@@ -53,4 +54,5 @@
 }
 .wx-program-container swiper image{
   height: 600px;
+  z-index: 2;
 }

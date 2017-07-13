@@ -7,14 +7,14 @@ Page({
     swiper: {
       indicatorDots: true,
       autoplay: true,
-      interval: 5000,
+      interval: 3000,
       duration: 2000,
       dataCustomImg: ['../../images/data1.jpg','../../images/data2.jpg'
       ],
       wxProgramImg: ['../../images/wx1.jpg','../../images/wx2.jpg','../../images/wx3.jpg','../../images/wx4.jpg']
     }
   },
-  onShow:function(options){
+  onShow:function(){
     var curIndex = wx.getStorageSync('curIndex')
     if (curIndex) {
       this.setData({

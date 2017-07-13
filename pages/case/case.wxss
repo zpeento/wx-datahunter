@@ -46,8 +46,11 @@
   background: #fff;
   box-shadow: 2px 3px 2px #ccc;
 }
+.swiper-text{
+  padding:0 20rpx;
+}
 .data-custom-container swiper{
-  height: 240px;
+  height: 410px;
 }
 .wx-program-container swiper{
   height: 600px;
@@ -65,3 +68,10 @@
   height:20px;
   margin-left: 5px;
 }
+/*.lalala{
+  height: 60px;
+  z-index: 100;
+  background: #000;
+  position: relative;
+  top: -100px;
+}*/

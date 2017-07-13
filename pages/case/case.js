@@ -9,9 +9,9 @@ Page({
       autoplay: true,
       interval: 5000,
       duration: 2000,
-      dataCustomImg: ['../../images/data1.png','../../images/data2.png'
+      dataCustomImg: ['../../images/data1.jpg','../../images/data2.jpg'
       ],
-      wxProgramImg: ['../../images/wx1.png','../../images/wx2.png','../../images/wx3.jpg','../../images/wx4.jpg']
+      wxProgramImg: ['../../images/wx1.jpg','../../images/wx2.jpg','../../images/wx3.jpg','../../images/wx4.jpg']
     }
   },
   onShow:function(options){

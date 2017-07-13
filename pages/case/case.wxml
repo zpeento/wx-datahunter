@@ -27,7 +27,12 @@
         </text>
       </view>
       <view class="offer-container card">
-        <text class="title">报价</text>
+        <view class="offer-title">
+          <text class="title">报价</text>
+          <view class="call" bindtap="call">
+            <image src="../../images/call.png" bindtap="call"></image>
+          </view>
+        </view>
         <text class="content">
           根据评估收费，具体报价详情可联系负责人。
         </text>
@@ -58,9 +63,14 @@
         <text class="content">
           提交需求——>选取模板/定制小程序——>交付验收
         </text>
-      </view>
+      </view>      
       <view class="offer-container  card">
-        <text class="title h4">报价</text>
+        <view class="offer-title">
+          <text class="title">报价</text>
+          <view class="call" bindtap="call">
+            <image src="../../images/call.png" bindtap="call"></image>
+          </view>
+        </view>
         <text class="content">
           按100元/页计价，详情可联系负责人。
         </text>
@@ -93,7 +103,12 @@
         </text>
       </view>
       <view class="offer-container card">
-        <text class="title h4">报价</text>
+        <view class="offer-title">
+          <text class="title">报价</text>
+          <view class="call" bindtap="call">
+            <image src="../../images/call.png" bindtap="call"></image>
+          </view>
+        </view>
         <text class="content">
           根据评估收费，具体报价详情可联系负责人。
         </text>

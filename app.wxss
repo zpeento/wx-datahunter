@@ -40,3 +40,9 @@ page{
   font-weight: bold;
   color: #F9CE1D;
 }
+
+/*call icon*/
+.call image{
+  width: 40px;
+  height:40px;
+}

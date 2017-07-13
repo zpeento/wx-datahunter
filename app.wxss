@@ -36,13 +36,7 @@ page{
 .swiper-title{
   padding: 10px 6px;
   border-left: 4px solid #F9CE1D;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #F9CE1D;
-}
-
-/*call icon*/
-.call image{
-  width: 40px;
-  height:40px;
 }

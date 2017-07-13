@@ -55,4 +55,22 @@
   font-weight: bold;
   color:#F9CE1D;
 }
- 
+
+.company-intro{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  padding:20rpx 20rpx 20rpx 20rpx;
+  background-color: #fff;
+  /*border-radius: 6px;*/
+  box-shadow: 2px 3px 2px #ccc;
+  /*background: url(../../images/company.jpg) no-repeat;*/
+}
+.company-intro .title-container {
+  padding: 0px;
+}
+.company-intro .title-container image{
+  width: 42px;
+  height:24px;
+}

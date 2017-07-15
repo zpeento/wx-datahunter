@@ -50,13 +50,17 @@
   padding:0 20rpx;
 }
 .data-custom-container swiper{
-  height: 410px;
+  height: 400px;
+}
+.data-custom-container swiper image{
+  height: 200px;
+  z-index: 2;
 }
 .wx-program-container swiper{
-  height: 600px;
+  height: 720px;
 }
 .wx-program-container swiper image{
-  height: 600px;
+  height: 620px;
   z-index: 2;
 }
 
@@ -68,10 +72,3 @@
   height:20px;
   margin-left: 5px;
 }
-/*.lalala{
-  height: 60px;
-  z-index: 100;
-  background: #000;
-  position: relative;
-  top: -100px;
-}*/

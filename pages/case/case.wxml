@@ -82,9 +82,12 @@
         <view class="swiper-title">合作案例</view>
         <swiper indicator-dots="{{swiper.indicatorDots}}"
   autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" circular="true">
-          <block wx:for="{{swiper.wxProgramImg}}">
+          <block wx:for="{{swiper.wxProgram}}">
             <swiper-item>
-              <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFit"/>
+              <image src="{{item.imgUrl}}" class="slide-image" width="355" height="150" mode="aspectFit"/>
+              <view class="swiper-text">
+                <text>{{item.text}}</text>
+              </view>
             </swiper-item>
           </block>
         </swiper>

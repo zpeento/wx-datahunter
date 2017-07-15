@@ -29,7 +29,8 @@ page{
   background-color: #F9CE1D !important;
 }
 .case-show-container{
-  margin: 0 22rpx 12px 22rpx;
+  margin: 0 22rpx 12px 0;
+  padding-bottom: 20px;
   box-shadow: 2px 3px 2px #ccc;
   background-color: #fff;
 }

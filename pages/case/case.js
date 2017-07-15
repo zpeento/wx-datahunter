@@ -7,7 +7,7 @@ Page({
     swiper: {
       indicatorDots: true,
       autoplay: true,
-      interval: 3000,
+      interval: 4000,
       duration: 2000,
       dataCustom: [{
         imgUrl:'../../images/data1.jpg',
@@ -16,7 +16,13 @@ Page({
         imgUrl:'../../images/data2.jpg',
         text:'案例二：广州某知名投资咨询公司需要大量互联网行业的企业及投资机构信息动态。数据猎人工作室为其提供一年的数据定制服务，包括搭建数据实时采集引擎、数据清洗、数据库构建与维护、数据分析API开发等数据服务。帮助客户节省开发和人力成本，安全、实时、稳定、高效、便捷地获取其所需要的数据，帮助公司进行竞争情报手机和网站内容维护。'
       }],
-      wxProgramImg: ['../../images/wx1.jpg','../../images/wx2.jpg','../../images/wx3.jpg','../../images/wx4.jpg']
+      wxProgram: [{
+        imgUrl:'../../images/wx2.jpg',
+        text: '试课助手：应广州某培训机构的业务扩展需要，数据猎人工作室为其量身定制的一款发布试课信息和活动信息，以及报名管理的小程序。'
+      },{
+        imgUrl:'../../images/wx4.jpg',
+        text: '招宣霸王：根据某招聘平台的运营渠道的扩展需要，数据猎人工作室结合为其打造一款面向广大学子的校园招聘宣讲会信息的小程序。'
+      }]
     }
   },
   onShow:function(){

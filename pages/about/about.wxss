@@ -25,22 +25,29 @@
 }
 .team-member{
   border-left: 4px solid #F9CE1D;
-  
+  display: flex;
+  justify-content: space-between;
 }
 .team-member-container{
   padding-bottom: 12px;
   
 }
+.business-card .phone{
+  margin-left: 32px;
+  line-height: 28px;
+}
+.business-card .wechat{
+  margin-left: 32px;
+  line-height: 28px;
+}
 /*call icon*/
-.call image{
-  width: 40px;
-  height:40px;
-}
-.team-member-container .call{
+.business-card-right image{
+  width: 20px;
+  height:20px;
   margin-right: 20rpx;
-  margin-top: 20px;
 }
-.team-member.has-call{
-  display: flex;
-  justify-content: space-between;
+.team-member-container .business-card-right {
+  /*margin-right: 20rpx;
+  margin-top: 20px;*/
 }
+  

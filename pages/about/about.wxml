@@ -18,31 +18,38 @@
         <text>潘樱桃</text>
       </view>
       <view class="phone">
-        <image src="../../images/phone.png" class="icon"></image>
+        <!--<image src="../../images/phone.png" class="icon"></image>-->
         <text>手机:15811872632</text>
       </view>
       <view class="wechat">
-        <image src="../../images/wechat.png" class="icon"></image>
+        <!--<image src="../../images/wechat.png" class="icon"></image>-->
         <text>微信:Beryl_pyt</text>
       </view>
     </view>
-    <view class="call">
+    <view class="business-card-right">
       <image src="../../images/call.png" bindtap="call"></image>
+      <image src="../../images/wechat_green.png"></image>
     </view>
     </view>
     <view class="team-member card">
+    <view class="business-card">
       <view class="name">
         <image src="../../images/girl.png" class="icon"></image>
         <text>江洁</text>
       </view>
       <view class="phone">
-        <image src="../../images/phone.png" class="icon"></image>
+        <!--<image src="../../images/phone.png" class="icon"></image>-->
         <text>手机:13640236968</text>
       </view>
       <view class="wechat">
-        <image src="../../images/wechat.png" class="icon"></image>
+        <!--<image src="../../images/wechat.png" class="icon"></image>-->
         <text>微信:ll8141</text>
       </view>
+    </view>
+    <view class="business-card-right">
+      <image src="../../images/call.png" bindtap="call"></image>
+      <image src="../../images/wechat_green.png"></image>
+    </view>
     </view>
   </view>
 </view>

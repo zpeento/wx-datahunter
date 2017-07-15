@@ -42,8 +42,8 @@
 }
 /*call icon*/
 .business-card-right image{
-  width: 20px;
-  height:20px;
+  width: 26px;
+  height:26px;
   margin-right: 20rpx;
 }
 .team-member-container .business-card-right {

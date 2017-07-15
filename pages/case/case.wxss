@@ -3,6 +3,7 @@
   display: block;
 }*/
 .conatiner{
+  margin-bottom: 20px;
 }
 .tab-button-container{
   width: 100%;
@@ -30,6 +31,7 @@
 }
 .tab-content-container{
   margin-top: 52px;
+  padding-bottom: 12px;
 }
 .title{
   font-size: 16px;
@@ -57,7 +59,7 @@
   z-index: 2;
 }
 .wx-program-container swiper{
-  height: 720px;
+  height: 730px;
 }
 .wx-program-container swiper image{
   height: 620px;

@@ -54,3 +54,7 @@ swiper image{
   height: 210px;
   width:300px;
 }  
+
+.name .icon{
+  border-radius: 50%;
+}

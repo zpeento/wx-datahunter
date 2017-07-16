@@ -22,7 +22,7 @@
     <view class="team-member card has-call">
     <view class="business-card">
       <view class="name">
-        <image src="../../images/girl.png" class="icon"></image>
+        <image src="../../images/pic_1.jpg" class="icon"></image>
         <text>潘樱桃</text>
       </view>
       <view class="phone">
@@ -42,7 +42,7 @@
     <view class="team-member card">
     <view class="business-card">
       <view class="name">
-        <image src="../../images/girl.png" class="icon"></image>
+        <image src="../../images/pic_2.jpg" class="icon"></image>
         <text>江洁</text>
       </view>
       <view class="phone">

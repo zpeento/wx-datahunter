@@ -3,8 +3,13 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+    swiper: {
+      indicatorDots: true,
+      autoplay: true,
+      interval: 4000,
+      duration: 2000,
+      imgUrl:['../../images/team_1.jpg','../../images/team_2.jpg','../../images/team_3.jpg']
+    }
   },
   call: function() {
     wx.makePhoneCall({

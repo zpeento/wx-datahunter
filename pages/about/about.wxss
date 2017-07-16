@@ -44,10 +44,13 @@
 .business-card-right image{
   width: 26px;
   height:26px;
-  margin-right: 20rpx;
+  margin-left: 20rpx;
 }
 .team-member-container .business-card-right {
   /*margin-right: 20rpx;
   margin-top: 20px;*/
 }
-  
+swiper image{
+  height: 210px;
+  width:300px;
+}  

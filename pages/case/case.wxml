@@ -13,7 +13,7 @@
   </view>
   <view class="tab-content-container">
     <!--数据定制tab-->
-    <view class="data-custom-container" wx:if="{{tab_index == '0'}}">
+    <view class="data-custom-container" hidden="{{tab_index != '0'}}">
       <view class="intro-container card">
         <text class="title">简介</text>
         <text class="content">
@@ -54,7 +54,7 @@
     </view>
 
     <!--小程序tab-->
-    <view class="wx-program-container" wx:if="{{tab_index == '1'}}">
+    <view class="wx-program-container" hidden="{{tab_index != '1'}}">
       <view class="intro-container  card">
         <text class="title h4">简介</text>
         <text class="content">
@@ -95,7 +95,7 @@
     </view>
 
     <!--网站开发tab-->
-    <view class="web-dev-container" wx:if="{{tab_index == '2'}}">
+    <view class="web-dev-container" hidden="{{tab_index != '2'}}">
       <view class="intro-container card">
         <text class="title h4">简介</text>
         <text class="content">

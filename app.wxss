@@ -25,6 +25,9 @@ page{
 }
 
 /*swiper*/
+swiper{
+  width: 320px;
+}
 .wx-swiper-dot-active{
   background-color: #F9CE1D !important;
 }
